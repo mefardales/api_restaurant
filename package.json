@@ -1,0 +1,30 @@
+{
+  "name": "api_restaurant",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A CRUD api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mefardales/api_restaurant.git"
+  },
+  "author": "Manuel Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mefardales/api_restaurant/issues"
+  },
+  "homepage": "https://github.com/mefardales/api_restaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.4.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
